@@ -235,10 +235,13 @@ body{
     background-color: #2c71b8;
     border: #fff 1px solid;
     padding: 5px 5px;
+    
 }
 .menu-sort>li>a:hover{
     background-color: #fff;
     color: #2c71b8;
+    
+    
 }
 .submenu-sort>li>a{
     width: 270px;
@@ -255,12 +258,17 @@ body{
     background-color: #fff;
     color: #2c71b8;
     display: block;
+    
 }
 .all-menu-sort:hover .submenu-sort>li>a{
     display: block;
+    
 } 
 
-
+.col-4{
+    background-color: #2c71b8;
+    opacity: 0.80;
+}
 .product-image{
     background-color: #fff;
     opacity: 0.75;
@@ -280,35 +288,40 @@ body{
 
 
 .zoom button{
-    width: 25px;
-    height: 25px;
+    width: 28px;
+    height: 28px;
     border: #2c71b8 1px solid;
     background-image: url(image/icon-border\ \(8\).png);
-    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
     position: absolute;
     cursor: pointer;
-    left: 230px;
     top: 10px;
+    right: 10px;
 }
 .like button{
-    width: 25px;
-    height: 25px;
+    width: 28px;
+    height: 28px;
     border: #2c71b8 1px solid;
     background-image: url(image/icon-like\ \(5\).png);
-    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
     position: absolute;
     cursor: pointer;
-    left: 230px;
     top: 45px;
+    right: 10px;
+    
 }
 .zoom button:hover{
     background-image: url(image/icon-border-honor.png);
-    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
     background-color: #2c71b8;
 }
 .like button:hover{
     background-image: url(image/icon-like-honor.png);
-    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
     background-color: #2c71b8;
 }
 
@@ -318,11 +331,13 @@ body{
     font-weight: bold;
     margin-top: 10px;
     color: #fff;
+    
 }
 .product-description{
     font-size: 21px;
     color: #fff;
     margin-top: 20px;
+   
 }
 .product-features span{
     font-size: 21px;
@@ -339,6 +354,7 @@ body{
     font-weight: bold;
     color: #fff;
     margin-top: 30px;
+    text-align: center;
 }
 .product-price span{
     font-size: 21px;
@@ -355,6 +371,8 @@ body{
     opacity: 0.75;
     color: #fff;
     margin-top: 30px;
+    margin-left: 30px;
+    cursor: pointer;
 }
 .button-cart{
     width: 210px;
@@ -367,4 +385,6 @@ body{
     opacity: 0.75;
     display: block;
     margin-top: 15px;
+    cursor: pointer;
+    margin-left: 30px;
 }
