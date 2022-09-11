@@ -258,16 +258,17 @@ body{
     background-color: #fff;
     color: #2c71b8;
     display: block;
-    
+   
 }
 .all-menu-sort:hover .submenu-sort>li>a{
     display: block;
-    
+   
 } 
 
 .col-4{
     background-color: #2c71b8;
     opacity: 0.80;
+    
 }
 .product-image{
     background-color: #fff;
@@ -387,4 +388,70 @@ body{
     margin-top: 15px;
     cursor: pointer;
     margin-left: 30px;
+    background-image: url(image/buy-wight.png);
+    background-position: right 0.5em bottom 16px;
+    background-repeat: no-repeat;
+}
+
+
+.row label::after{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border: #fff 1px solid;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 28px;
+}
+input[type="checkbox"]:checked + label::after{
+    background-color: #fff;
+}
+input[type="checkbox"] {
+    display: none;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 28px;
+    margin-bottom: 25px;
+}
+.label{
+    color: #fff;
+    font-size: 21px;
+    margin-left: 28px;
+}
+/* #Laptop, #tablet, #black, #red, #green, #blue, #orange, #one-gb, #two-gb, #four-gb, #six-gb, #eight-gb{
+    margin-top: 22px;
+    margin-left: 28px;
+} */
+.row p{
+    color: #fff;
+    font-size: 21px;
+    margin-top: 25px;
+    text-align: center;
+}
+.button-filter{
+    width: 210px;
+    height: 50px;
+    border: 1px solid #fff;
+    font-size: 21px;
+    font-weight: bold;
+    background-color: #2c71b8;
+    opacity: 0.75;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 30px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 2.5em;
+    margin-bottom: 28px;
+}    
+main .col-3{
+    background-color: #568dc6;
+    opacity: 0.75;
 }
